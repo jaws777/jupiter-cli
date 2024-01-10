@@ -61,25 +61,26 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@jup-ag/core@^1.0.0-beta.28":
-  version "1.0.0-beta.28"
-  resolved "https://registry.yarnpkg.com/@jup-ag/core/-/core-1.0.0-beta.28.tgz#0c15f940c6049f8b8570d6667d716f1bb1010434"
-  integrity sha512-96gb77z34jAn0WSQDqdrS8qQdCBRVFFv4UP5/N0d+oyPbK0jpIpAL7TIGN8+RCuutJB3nLLAmiNNVWYf+aJaFg==
+"@jup-ag/core@^2.0.0-beta.3":
+  version "2.0.0-beta.7-test-0"
+  resolved "https://registry.yarnpkg.com/@jup-ag/core/-/core-2.0.0-beta.7-test-0.tgz#bc194945b45fc5e9f654193bb68f816894f1e368"
+  integrity sha512-1CKa1z3NpIxNpiYNLaC04Fnd78a642rUEd/NhUdB+cOrtgHuFytEmmADvQUL910Gsqk98Je7NTyfwL+CiFvStQ==
   dependencies:
     "@jup-ag/crema-sdk" "2.0.7"
     "@jup-ag/cykura-sdk" "0.1.25"
     "@jup-ag/cykura-sdk-core" "0.1.8"
     "@jup-ag/lifinity-sdk" "0.1.72"
-    "@jup-ag/math" "1.0.0-beta.28"
+    "@jup-ag/math" "2.0.0-beta.7-test-0"
     "@jup-ag/whirlpool-sdk" "0.1.1"
-    "@mercurial-finance/optimist" "0.1.4"
-    "@project-serum/anchor" "0.23.0"
+    "@mercurial-finance/optimist" "0.1.7"
+    "@project-serum/anchor" "0.24.2"
     "@project-serum/serum" "0.13.65"
     "@saberhq/stableswap-sdk" "1.13.6"
     "@solana/spl-token" "0.1.8"
     bn.js "5.2.1"
     cross-fetch "3.1.5"
     decimal.js "10.3.1"
+    js-sha256 "~0.9.0"
     jsbi "4.3.0"
     promise-retry "2.0.1"
 
@@ -123,10 +124,10 @@
     "@solana/web3.js" "1.31.0"
     decimal.js "^10.3.1"
 
-"@jup-ag/math@1.0.0-beta.28":
-  version "1.0.0-beta.28"
-  resolved "https://registry.yarnpkg.com/@jup-ag/math/-/math-1.0.0-beta.28.tgz#52300d7470eee7c2cdac01b27b2f0c16062ad48a"
-  integrity sha512-GQkziJQ5kJwYgYNvK8ZFpW+d92R90ihwiQ2n1BunKakeTvPdwt7BQKAOj4KRgIb9/458zMCuYVZvdF1cAWFA/g==
+"@jup-ag/math@2.0.0-beta.7-test-0":
+  version "2.0.0-beta.7-test-0"
+  resolved "https://registry.yarnpkg.com/@jup-ag/math/-/math-2.0.0-beta.7-test-0.tgz#8a181795e1e84301e0b3162a41361d0d8716db12"
+  integrity sha512-8IzyufZwvkmOwURevuwusrE4DKNk/ZxtTuwB0/VXLpb6eD0VuQfZE/qwg9rwoiL9oAr9POaoH5XUJxNwKd9Rgw==
   dependencies:
     decimal.js "10.3.1"
     jsbi "4.3.0"
@@ -144,10 +145,12 @@
     decimal.js "~10.3.1"
     tiny-invariant "~1.2.0"
 
-"@mercurial-finance/optimist@0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@mercurial-finance/optimist/-/optimist-0.1.4.tgz#3ed5155fe94d5df0f86d2f47a3506460109eed4a"
-  integrity sha512-m8QuyPx9j7fGd2grw0mD5WcYtBb8l7+OQI5aHdeIlxPg3QoPrbSdCHyFOuipYbvB0EY5YDbOmyeFwiTcBkBBSw==
+"@mercurial-finance/optimist@0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@mercurial-finance/optimist/-/optimist-0.1.7.tgz#2ac2452f42353b25186b73fc3dbc8f0c9d4888f9"
+  integrity sha512-Ohjj9IjyJINt1OLkcvaD4pZ0X+mPIWpjaFXLTUgh2Gc0YYGBruBZGQiWNkUzeMJBGpaZlpKVWfGmFWIt6JuDGw==
+  dependencies:
+    promise-retry "2.0.1"
 
 "@orca-so/whirlpool-client-sdk@npm:@jup-ag/whirlpool-client-sdk@0.0.8":
   version "0.0.8"
@@ -160,10 +163,10 @@
     decimal.js "~10.3.1"
     lru-cache "^7.9.0"
 
-"@project-serum/anchor@0.23.0", "@project-serum/anchor@~0.23.0":
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/@project-serum/anchor/-/anchor-0.23.0.tgz#2b2eb6b51601b073e8db26663aa2d6c2f2841771"
-  integrity sha512-LV2/ifZOJVFTZ4GbEloXln3iVfCvO1YM8i7BBCrUm4tehP7irMx4nr4/IabHWOzrQcQElsxSP/lb1tBp+2ff8A==
+"@project-serum/anchor@0.24.2":
+  version "0.24.2"
+  resolved "https://registry.yarnpkg.com/@project-serum/anchor/-/anchor-0.24.2.tgz#a3c52a99605c80735f446ca9b3a4885034731004"
+  integrity sha512-0/718g8/DnEuwAidUwh5wLYphUYXhUbiClkuRNhvNoa+1Y8a4g2tJyxoae+emV+PG/Gikd/QUBNMkIcimiIRTA==
   dependencies:
     "@project-serum/borsh" "^0.2.5"
     "@solana/web3.js" "^1.36.0"
@@ -175,7 +178,6 @@
     cross-fetch "^3.1.5"
     crypto-hash "^1.3.0"
     eventemitter3 "^4.0.7"
-    find "^0.3.0"
     js-sha256 "^0.9.0"
     pako "^2.0.3"
     snake-case "^3.0.4"
@@ -228,6 +230,27 @@
   dependencies:
     "@project-serum/borsh" "^0.2.5"
     "@solana/web3.js" "^1.17.0"
+    base64-js "^1.5.1"
+    bn.js "^5.1.2"
+    bs58 "^4.0.1"
+    buffer-layout "^1.2.2"
+    camelcase "^5.3.1"
+    cross-fetch "^3.1.5"
+    crypto-hash "^1.3.0"
+    eventemitter3 "^4.0.7"
+    find "^0.3.0"
+    js-sha256 "^0.9.0"
+    pako "^2.0.3"
+    snake-case "^3.0.4"
+    toml "^3.0.0"
+
+"@project-serum/anchor@~0.23.0":
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/@project-serum/anchor/-/anchor-0.23.0.tgz#2b2eb6b51601b073e8db26663aa2d6c2f2841771"
+  integrity sha512-LV2/ifZOJVFTZ4GbEloXln3iVfCvO1YM8i7BBCrUm4tehP7irMx4nr4/IabHWOzrQcQElsxSP/lb1tBp+2ff8A==
+  dependencies:
+    "@project-serum/borsh" "^0.2.5"
+    "@solana/web3.js" "^1.36.0"
     base64-js "^1.5.1"
     bn.js "^5.1.2"
     bs58 "^4.0.1"
@@ -938,9 +961,9 @@ find@^0.3.0:
     traverse-chain "~0.1.0"
 
 follow-redirects@^1.14.0, follow-redirects@^1.14.7:
-  version "1.15.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
-  integrity sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==
+  version "1.15.4"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.4.tgz#cdc7d308bf6493126b17ea2191ea0ccf3e535adf"
+  integrity sha512-Cr4D/5wlrb0z9dgERpUL3LrmPKVDsETIJhaCMeDfuFYcqa5bldGV6wBsAN6X/vxlXQtFBMrXdXxdL8CbDTGniw==
 
 foreach@^2.0.5:
   version "2.0.5"
@@ -1206,7 +1229,7 @@ joi@^17.4.0:
     "@sideway/formula" "^3.0.0"
     "@sideway/pinpoint" "^2.0.0"
 
-js-sha256@^0.9.0:
+js-sha256@^0.9.0, js-sha256@~0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/js-sha256/-/js-sha256-0.9.0.tgz#0b89ac166583e91ef9123644bd3c5334ce9d0966"
   integrity sha512-sga3MHh9sgQN2+pJ9VYZ+1LPwXOxuBJBA5nrR5/ofPfuiJBE2hnjsaN8se8JznOmGLN2p49Pe5U/ttafcs/apA==
@@ -1216,7 +1239,7 @@ js-sha3@^0.8.0:
   resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.8.0.tgz#b9b7a5da73afad7dedd0f8c463954cbde6818840"
   integrity sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q==
 
-jsbi@4.3.0, jsbi@^4.1.0, jsbi@^4.2.0:
+jsbi@4.3.0, jsbi@^4.1.0, jsbi@^4.2.0, jsbi@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-4.3.0.tgz#b54ee074fb6fcbc00619559305c8f7e912b04741"
   integrity sha512-SnZNcinB4RIcnEyZqFPdGPVgrg2AcnykiBy0sHVJQKHYeaLUvi3Exj+iaPpLnFVkDPZIV4U0yvgC9/R4uEAZ9g==
